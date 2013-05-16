@@ -40,10 +40,10 @@ Google
 ------
 .. code-block::
 
-    GOOGLE_OAUTH2_CLIENT_ID    = environ.get('GOOGLE_OAUTH2_CLIENT_ID', '')
-    GOOGLE_OAUTH2_CLIENT_SECRET    = environ.get('GOOGLE_OAUTH2_CLIENT_SECRET', '')
+    GOOGLE_OAUTH2_CLIENT_ID      = environ.get('GOOGLE_OAUTH2_CLIENT_ID', '')
+    GOOGLE_OAUTH2_CLIENT_SECRET  = environ.get('GOOGLE_OAUTH2_CLIENT_SECRET', '')
 
 
 * Go to https://code.google.com/apis/console/, select API Access, create a new ``Client ID`` for web applications
-* Set the ``Redirect URIs to http://DOMAIN/complete/google-oauth2/
+* Set the ``Redirect URIs`` to http://DOMAIN/complete/google-oauth2/
 * Get ``Client ID`` and ``Client secret``
