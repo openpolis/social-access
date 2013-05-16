@@ -1,0 +1,17 @@
+Salve :-)
+abbiamo ricevuto la tua richiesta di registrazione ai servizi Openpolis.
+Per attivarla basta fare click su questo link:
+
+http://{{ site.domain }}{% url 'registration_activate' activation_key %}
+
+Se non riesci a cliccare sul link qui sopra, per favore, copialo e incollalo nel tuo browser.
+
+Il link sarà disponibile solo per un periodo di tempo limitato. Cliccalo durante i prossimi
+7 giorni per accedere alla piattaforma, prima che venga rimosso.
+
+Buon proseguimento,
+lo staff di Openpolis
+
+___
+Se la richiesta non proviene da te, ce ne scusiamo e ti rassicuriamo che non riceverai altre email da noi.
+

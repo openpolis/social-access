@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load url from future %}
+
+{% block script %}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block heading %}Login using any of the following methods{% endblock %}
+
+{% block content %}
+                <p>
+                    <a href="{% url 'socialauth_begin' 'google-oauth2' %}" class="btn btn-inverse">
+                        Google
+                    </a>
+                </p>
+                <p>
+                    <a href="{% url 'socialauth_begin' 'twitter' %}" class="btn btn-info">
+                        Twitter
+                    </a>
+                </p>
+                <p>
+                    <a href="{% url 'socialauth_begin' 'facebook' %}" class="btn btn-primary">
+                        Facebook
+                    </a>
+                </p>
+{%  endblock %}

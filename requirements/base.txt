@@ -1,0 +1,11 @@
+# from two scoops django template
+Django==1.5.1
+bpython==0.12
+django-braces==0.2.1
+django-model-utils==1.1.0
+logutils==0.3.3
+South==0.7.6
+
+django-social-auth==0.7.23
+# we need to get that from bitbucket, as Pipy package is not compatible with Django 1.5
+hg+http://bitbucket.org/ubernostrum/django-registration#egg=registration
