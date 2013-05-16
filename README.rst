@@ -15,8 +15,10 @@ in the auth-providers' web sites.
 
 Facebook
 --------
-FACEBOOK_APP_ID         = environ.get('FACEBOOK_APP_ID', '')
-FACEBOOK_API_SECRET     = environ.get('FACEBOOK_API_SECRET', '')
+.. code-block::
+
+    FACEBOOK_APP_ID         = environ.get('FACEBOOK_APP_ID', '')
+    FACEBOOK_API_SECRET     = environ.get('FACEBOOK_API_SECRET', '')
 
 * Go to https://developers.facebook.com/apps create a new web app and get the codes from there.
 * Set ``App Domain`` to your 2nd level domain.
@@ -25,8 +27,10 @@ FACEBOOK_API_SECRET     = environ.get('FACEBOOK_API_SECRET', '')
 
 Twitter
 -------
-TWITTER_CONSUMER_KEY    = environ.get('TWITTER_CONSUMER_KEY', '')
-TWITTER_CONSUMER_SECRET = environ.get('TWITTER_CONSUMER_SECRET', '')
+.. code-block::
+
+    TWITTER_CONSUMER_KEY    = environ.get('TWITTER_CONSUMER_KEY', '')
+    TWITTER_CONSUMER_SECRET = environ.get('TWITTER_CONSUMER_SECRET', '')
 
 * Go to https://dev.twitter.com/apps, create a new application or manage an existing one.
 * Set the ``Callback URL``.
@@ -34,8 +38,10 @@ TWITTER_CONSUMER_SECRET = environ.get('TWITTER_CONSUMER_SECRET', '')
 
 Google
 ------
-GOOGLE_OAUTH2_CLIENT_ID    = environ.get('GOOGLE_OAUTH2_CLIENT_ID', '')
-GOOGLE_OAUTH2_CLIENT_SECRET    = environ.get('GOOGLE_OAUTH2_CLIENT_SECRET', '')
+.. code-block::
+
+    GOOGLE_OAUTH2_CLIENT_ID    = environ.get('GOOGLE_OAUTH2_CLIENT_ID', '')
+    GOOGLE_OAUTH2_CLIENT_SECRET    = environ.get('GOOGLE_OAUTH2_CLIENT_SECRET', '')
 
 
 * Go to https://code.google.com/apis/console/, select API Access, create a new ``Client ID`` for web applications
